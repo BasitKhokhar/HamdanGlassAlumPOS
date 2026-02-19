@@ -3,14 +3,16 @@
 # dependencies
 node_modules/
 
+package-lock.json
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
+firebase-service-account
+google-services
 # Native
-.kotlin/
 *.orig.*
 *.jks
 *.p8
@@ -31,11 +33,10 @@ yarn-error.*
 *.pem
 
 # local env files
+*.env
+/backend/.env
 .env*.local
-
+.env
+/backend/.env
 # typescript
 *.tsbuildinfo
-
-# generated native folders
-/ios
-/android
